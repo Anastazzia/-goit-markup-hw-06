@@ -1,37 +1,63 @@
-@import"./base/reset";
+/*@import"./base/reset";
 @import"./utils/vars";
 
 
 
-/*body*/
+/*body*//*
 @import"./base/common";
 @import"./components/header";
 
 /*button*/
-
+/*
 @import "./components/hero";
 
-/*СЕКЦІЇ*/
+/*СЕКЦІЇ*//*
 @import"./components/plus";
 
 /*Поправки маркеровок*/
 
 
 
-/*Команда*/
+/*Команда*//*
 @import"./components/team";
 
-/*Постійні клієнти*/
+/*Постійні клієнти*//*
 @import"./components/partners";
 
-/*Футер*/
+/*Футер*//*
 @import "./components/footer";
 
-/*MODAL*/
+/*MODAL*//*
 @import"./components/modal";
 
-/*Портфолио*/
+/*Портфолио*//*
 @import"./components/portfolio";
+
+/*МЕЙЛИНГ*/
+/*
+.footer-mailing {
+    display: block;
+}
+
+.mailing {
+    display: flex;
+}
+
+
+
+.mailing-btn {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+
+}
+
+.btn {}
+
+.btn-cvg {}
 
 
 /*цвет основного текста #212121 */
