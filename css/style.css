@@ -753,6 +753,7 @@ body {
     line-height: calc( 16 / 14);
     letter-spacing: 0.03em;
     font-weight: 700;
+    color: var(--primary-bg-color);
 }
 
 .email-mailing{
