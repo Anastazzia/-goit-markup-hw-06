@@ -1035,8 +1035,11 @@ body {
 /*
 checkbox*/
 
+
+
 .modal-form-label-checkbox{
-    display: block;
+    display: flex;
+    
     width: 400px;
     text-align: center;
     align-items: center;
@@ -1054,6 +1057,7 @@ checkbox*/
 }
 
 .checkbox-form{
+    
     appearance: none;
 
     width: 16px;
@@ -1061,6 +1065,13 @@ checkbox*/
     border-radius: 2px;
     border: 2px solid black;
     cursor: pointer;
+    
+   
+}
+
+.checkbox-text{
+    color: var(--text-color);
+    
 }
 
 .checkbox-form:checked{
